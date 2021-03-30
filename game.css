@@ -1,0 +1,72 @@
+.text {
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 5em;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  color: #080808;
+
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #1b1717, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+header,
+form,
+.captions {
+  align-items: center;
+  text-align: center;
+}
+form {
+  margin-top: 13%;
+}
+.numberInput {
+  padding: 22px 60px;
+  border-radius: 6%;
+  font-size: 1rem;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+}
+.submitBtn {
+  text-align: center;
+  background-color: white;
+  border-radius: 10%;
+  padding: 15px 32px;
+  margin-top: 1%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+}
+body {
+  background-color: rgb(250, 229, 203);
+}
+.para {
+  text-shadow: 2px 2px 5px red;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.captions {
+  font-size: 2rem;
+}
+@media only screen and (max-width: 480px) {
+  .text {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+  }
+  body {
+    background-color: rgb(141, 231, 204);
+  }
+  .numberInput {
+    padding: 10px 25px;
+    border-radius: 2%;
+  }
+  .submitBtn {
+    margin-top: 6%;
+  }
+  .captions {
+    font-size: 1.5rem;
+  }
+}
